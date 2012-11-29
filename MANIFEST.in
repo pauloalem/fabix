@@ -1,3 +1,3 @@
 include README.md
 include requirements.txt
-recursive-include fabix/support_files
+recursive-include fabix/support_files *.conf
