@@ -33,5 +33,6 @@ setup(
     ],
     packages=find_packages(),
     install_requires=open(requirements_file, "rb").read().split("\n"),
-    package_dir={"fabix": "fabix"}
+    package_dir={"fabix": "fabix"},
+    package_data={'fabix': ['support_files/etc/init/*']}
 )
